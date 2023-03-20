@@ -29,5 +29,8 @@ void main() {
   print(variavel);
   print(variavel12);
 
-
+  print('Código $codigo');
+  // Conversão de int para string
+  print('Código: '+ nome + codigo.toString());
+  print('Preço: '+ preco.toString());
 }
